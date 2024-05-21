@@ -3045,4 +3045,537 @@ a {
 }
 
 
+/* omoss Page/ 6th page */
+.omossInfoSection {
+    margin-top: 80px;
+    margin-bottom: 240px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.omossBanner img {
+    width: 100%;
+
+}
+
+.sideImage img {
+    position: absolute;
+    height: 300px;
+}
+
+.omossInfo {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 50px;
+}
+
+.omossInfo h2 {
+    font-size: 52px;
+    font-weight: normal;
+    color: #87565B;
+}
+
+.omossInfo h5 {
+    font-size: 32px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.omossInfo p {
+    font-size: 23px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.res_para {
+    display: none;
+}
+
+.farmerInfoSec {
+    background-color: #F8F5EF;
+    padding: 50px 50px;
+}
+
+.OmossFarmer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    align-items: center;
+}
+
+.OmossFarmer img {
+    width: 100%;
+}
+
+.OmossFarmer h3 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #87565B;
+}
+
+.OmossFarmer h5 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.OmossFarmer p {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 24px;
+}
+
+.BodensSec .compProduct_infoTitle {
+    background-color: #FFF;
+    padding: 60px 60px;
+}
+
+.BodensSec .ProductProduced {
+    max-width: 950px;
+}
+
+.BodensSec .compProduct_infoTitle .EachProduced img {
+    width: 50%;
+}
+
+.BodensSec .compProduct_infoTitle .EachProduced h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #87565B;
+    line-height: 34px;
+}
+
+.OmossfarmerSec {
+    background-color: #F8F5EF;
+    padding: 80px 100px;
+}
+
+.mobile_res_img {
+    display: none;
+}
+
+.farmerInfoSec2 {
+    background-color: #FFF;
+}
+
+.farmerInfoSec2 img {
+    width: 100%;
+}
+
+.OmossFarmer {
+    padding: 100px 50px 100px 50px;
+}
+
+.farmerInfoSec2 p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: normal;
+    color: #333333;
+    line-height: 24px;
+}
+
+.OmossFarmer a {
+    color: #333333;
+    text-decoration: none;
+    border-bottom: 2px solid #87565B;
+}
+
+/* responsive page/ omossPage */
+@media only screen and (max-width: 379px) {
+
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    header {
+        padding: 0px 0;
+    }
+
+    /* navbar */
+
+    .container .main_colm {
+        display: none;
+    }
+
+    .res_menu {
+        display: block;
+    }
+
+    .res_menu {
+        display: grid;
+        grid-template-columns: 2fr 3fr 2fr;
+        align-items: center;
+    }
+
+    .res_menu .logo img {
+        height: 60px;
+        width: 150px;
+
+    }
+
+    .res_menu .icon {
+        margin-left: 40px;
+        color: #FFF;
+    }
+
+    /* menu*/
+    #menu {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+        z-index: 99999;
+        position: absolute;
+        left: 0;
+        background: transparent !important;
+
+    }
+
+    .slicknav_menu .slicknav_nav {
+        background: #F8F5EF;
+        height: 74vh;
+        width: 310px;
+        padding-top: 30px;
+        position: relative;
+        top: 19px;
+
+    }
+
+    .slicknav_menu .slicknav_nav li a {
+        color: #333333 !important;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .slicknav_menu .slicknav_menutxt {
+        display: none !important;
+    }
+
+    .slicknav_open {
+        position: relative;
+    }
+
+    /* cross icon */
+    .slicknav_open::before {
+        content: '\f00d';
+        position: absolute;
+        font-family: fontawesome;
+        color: #FFF;
+        font-size: 18px;
+        right: 274px;
+        top: 14px;
+
+    }
+
+    /* menu icon*/
+    .slicknav_collapsed::before {
+        content: '\f0c9';
+        position: absolute;
+        font-family: fontawesome;
+        color: #FFF;
+        font-size: 16px;
+        right: 20px;
+        top: 14px;
+    }
+
+    .slicknav_menu .slicknav_btn {
+        background: transparent;
+    }
+
+    .slicknav_icon {
+        opacity: 0;
+
+    }
+
+    .srchBoxs input {
+        width: 260px;
+        border-radius: 5px;
+        border: 2px solid #9e9e9e;
+        padding: 2px 30px;
+        margin-bottom: 10px;
+    }
+
+    .srchBoxs {
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .srchBoxs::after {
+        content: '\f002';
+        color: #333333;
+        position: absolute;
+        font-family: fontawesome;
+        top: 13px;
+        left: 38px;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+
+    }
+
+    .menuImage {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    /*  */
+    .omossInfoSection {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .omossBanner img {
+        width: 100%;
+
+    }
+
+    .sideImage img {
+        position: absolute;
+        height: 300px;
+    }
+
+    .omossInfo {
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 50px;
+    }
+
+    .omossInfo h2 {
+        font-size: 42px;
+    }
+
+    .omossInfo h5 {
+        font-size: 25px;
+    }
+
+    .res_para {
+        margin-top: 30px;
+        display: block;
+    }
+
+    .res_para p {
+        font-size: 16px;
+        font-weight: normal;
+        color: #424242;
+        text-align: justify;
+    }
+
+    /*  */
+    .BodensSec .compProduct_infoTitle {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .BodensSec .compProduct_infoTitle .slider {
+        display: inline;
+    }
+
+    .BodensSec .compProduct_infoTitle .slider .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .BodensSec .compProduct_infoTitle .slider .item h4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #87565B;
+    }
+
+    .BodensSec .compProduct_infoTitle .slider .owl-carousel .item img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+
+    .owl-carousel .owl-dots {
+        margin-top: 20px;
+    }
+
+
+    /* farmer Info section 1 */
+    .farmerInfoSec {
+        background-color: #F8F5EF;
+        padding: 20px 0px;
+    }
+
+    .farmerInfoSec .OmossFarmer {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        align-items: center;
+        padding: 50px 20px 50px 20px;
+    }
+
+    .farmerInfoSec .mobile_res_img {
+        display: block;
+    }
+
+    .des-img {
+        display: none;
+    }
+
+    /* farmer */
+    .OmossfarmerSec {
+        padding: 80px 20px;
+    }
+
+    .first_row {
+        display: block;
+        margin-bottom: 60px;
+    }
+
+    .imge img {
+        width: 100%;
+    }
+
+    .second_row {
+        display: block;
+        flex-direction: row-reverse;
+    }
+
+    .first_row_farmerInfo {
+        max-width: 400px;
+        margin-left: 0px;
+    }
+
+    .first_row_farmerInfo h3 {
+        font-size: 30px;
+        font-weight: normal;
+        color: #87565B;
+    }
+
+    .second_row_farmerInfo {
+        text-align: left;
+        max-width: 400px;
+        margin-right: 40px;
+        padding-bottom: 5px;
+    }
+
+    .second_row_farmerInfo h3 {
+        font-size: 30px;
+        font-weight: normal;
+        color: #87565B;
+    }
+
+    /* farmer info section 2 */
+
+    .farmerInfoSec2 .OmossFarmer {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        align-items: center;
+        padding: 50px 20px 50px 20px;
+    }
+
+    /* footer */
+    .footer_colm {
+        display: none;
+    }
+
+    .res_colm {
+        display: block;
+        margin-left: 30px;
+    }
+
+    .footer_items {
+        text-align: left;
+        /* margin-bottom: 30px; */
+
+    }
+
+    .footer_item {
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .footer_item_cont {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+
+    .footer_item_cont a {
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    /* main footer */
+    .footer_colmss {
+        display: block;
+        margin-left: 25px;
+        padding-bottom: 50px;
+    }
+
+    .footer_logos {
+        padding-top: 30px;
+        display: flex;
+        column-gap: 20px;
+    }
+
+    .footer_logo img {
+        align-items: center;
+        margin-right: 0px;
+        margin-top: 50px;
+
+    }
+
+    .footer_title {
+        margin-top: 30px;
+    }
+
+    .footer_title a {
+        display: block;
+        color: #FFF;
+
+    }
+
+    .link_row {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .footer_link {
+        margin-left: 0px;
+    }
+
+    .footer_link p,
+    a {
+        color: #FFF;
+    }
+
+    .angle_up {
+        text-align: center;
+        margin-left: 120px;
+        color: #FFF;
+
+    }
+
+    .fa-angle-up {
+        background-color: #707070;
+        padding: 10px;
+        border-radius: 50%;
+        text-align: center;
+
+    }
+
+    .footer_colms {
+        display: none;
+    }
+}
+
 
