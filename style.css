@@ -4105,6 +4105,31 @@ a {
     }
 }
 
+/* konto page 5 */
+.personal_info {
+	width: 40%;
+}
+.personal_info p  {
+    margin-top: 12px;
+    font-size: 17px;
+    text-align: center;
+}
+.personal_info p a {
+	color: #333333;
+    text-decoration: none;
+    text-align: center;
+}
+/* konto page 6 */
+.velgPassPageContent p{
+    margin-top: 12px;
+    font-size: 17px;
+    text-align: center; 
+}
+.velgPassPageContent p a {
+	color: #333333;
+    text-decoration: none;
+    text-align: center;
+}
 
 
 
