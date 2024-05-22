@@ -3579,3 +3579,449 @@ a {
 }
 
 
+/* sistee page */
+.headerInfo {
+    margin-top: 70px;
+    margin-bottom: 80px;
+    padding-right: 450px;
+}
+
+.headerInfo h1 {
+    font-size: 52px;
+    font-weight: normal;
+    color: #87565B;
+}
+
+.headerInfo h4 {
+    font-size: 32px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.headerInfo p {
+    font-size: 23px;
+    font-weight: normal;
+    color: #333333
+}
+
+.image_colm {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+}
+
+.image_colm img {
+    width: 100%;
+}
+
+.image_colm h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #87565B;
+}
+
+.image_colm p {
+    font-size: 17px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.productSecSiste {
+    background-color: #F8F5EF;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 50px 0px 0px 0px;
+}
+
+.productSecSiste img {
+    width: 100%;
+}
+
+.productSecSiste .head input {
+    background-color: #F8F5EF;
+}
+
+.productSecSiste .main_col {
+    margin-bottom: 100px;
+
+}
+
+.productSecSiste .flex_colm {
+    background: #FFFF;
+
+}
+
+.productSecSiste .flex_colms {
+    background: #FFFF;
+}
+
+/* siste page responsive */
+@media only screen and (max-width: 379px) {
+    .headerInfo {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .image_colm {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .productSecSiste .main_col {
+        margin-bottom: 60px;
+
+    }
+
+    .productSecSiste .head {
+        padding-left: 20px;
+    }
+
+    .productSecSiste .newBtn {
+        margin-bottom: 50px;
+    }
+
+    .productSecSiste .newBtn input {
+        background-color: #F8F5EF;
+    }
+
+    .newBtn {
+        margin-right: 20px;
+    }
+}
+
+
+
+/* conto page 1 */
+.kontoPageSec {
+    background-color: #F8F5EF;
+}
+.kontoPageSec img{
+    width: 100%;
+}
+
+.kontoPageContent {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    column-gap: 200px;
+}
+
+.konto_list h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #87565B;
+    margin-bottom: 40px;
+}
+
+.konto_list li {
+    list-style: none;
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.konto_list li a {
+    text-decoration: none;
+    color: #9D9F99;
+
+}
+
+.personal_info h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #87565B;
+    margin-bottom: 40px;
+}
+
+.personal_info form label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.personal_info form {
+    width: 100%;
+}
+
+.personal_info form input {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 96%;
+    padding: 10px 0px 10px 12px;
+    font-size: 17px;
+    font-weight: normal;
+    border-radius: 4px;
+    border: 2px solid #dddbdb;
+
+}
+
+.personal_info button {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 10px 12px 10px 12px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid #dddbdb;
+    background-color: #87565B;
+    color: #FFF;
+    border: none;
+
+}
+
+/* kontoo page 2 */
+.flex_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_title a {
+    color: #87565B;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.address_info h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #87565B;
+    margin-bottom: 40px;
+}
+
+.address_info form label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.address_info form {
+    width: 100%;
+}
+
+.address_info form input {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 96%;
+    padding: 10px 0px 10px 12px;
+    font-size: 17px;
+    font-weight: normal;
+    border-radius: 4px;
+    border: 2px solid #dddbdb;
+
+}
+
+.address_info form select {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 96%;
+    padding: 10px 0px 10px 12px;
+    font-size: 17px;
+    font-weight: normal;
+    border-radius: 4px;
+    border: 2px solid #dddbdb;
+    width: 50%;
+    background-color: #FFF;
+
+}
+
+
+.address_info button {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 10px 12px 10px 12px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid #dddbdb;
+    background-color: #87565B;
+    color: #FFF;
+    border: none;
+
+}
+
+.post_sted {
+    display: flex;
+    column-gap: 0px;
+}
+
+.post_sted .postnum {
+    width: 75% !important;
+}
+
+.post_sted .sted {
+    width: 92% !important;
+}
+
+/* konto Page 3 */
+.OrdrehistorikkPageSec {
+    background-color: #F8F5EF;
+}
+.OrdrehistorikkPageSec img{
+    width: 100%;
+}
+.OrdrehistorikkPageContent {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    column-gap: 200px;
+}
+
+.Ordrehistorikk_info {
+    width: 30%;
+}
+
+.Ordrehistorikk_info h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #87565B;
+}
+
+.Ordrehistorikk_info h5 {
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.konto_flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+.konto_flex p {
+    font-size: 23px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.konto_flex a {
+    font-size: 17px;
+    font-weight: normal;
+    color: #333333;
+    text-decoration: none;
+}
+
+.Ordrehistorikk_info button {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 10px 12px 10px 12px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid #dddbdb;
+    background-color: #87565B;
+    color: #FFF;
+    border: none;
+
+}
+
+.konto-Ordrehistorikk-info p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.Ordrehistorikk_info hr {
+    margin-top: 10px;
+    color: #9D9F99;
+}
+
+
+/* konto 4 page */
+.OrdrehistorikkPageContent2 {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    column-gap: 300px;
+}
+
+.konto_lists li {
+    list-style: none;
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: normal;
+
+}
+
+.konto_lists li a {
+    text-decoration: none;
+    color: #333333;
+
+}
+.konto-Ordrehistorikk-infos p{
+    margin-bottom: 0px;
+}
+.konto_lists .fa-angle-left {
+    font-size: 12px;
+    color: #333333;
+
+}
+.Ordrehistorikk_info .Produkt{
+    margin-top: 30px;
+}
+.konto_flexx {
+    display: flex;
+    justify-content: space-between;
+}
+
+.konto_flexx p {
+    font-size: 23px;
+    font-weight: normal;
+    color: #333333;
+}
+
+.konto_flexx a {
+    font-size: 17px;
+    font-weight: normal;
+    color: #333333;
+    text-decoration: none;
+}
+.kontoo_flex{
+    display: flex;
+    justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.konto_o_flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.konto_o_flex p{
+    font-size: 17px;
+    font-weight: bold;
+}
+.kontoo_flex p{
+    font-size: 17px;
+    font-weight: bold;
+}
+#currentDate{
+    font-weight: bold;
+}
+.Fakturaadresse{
+    margin-top: 40px;
+    background-color: #FFF;
+    padding: 20px;
+    color: #333333;
+    font-size: 17px;
+}
+.Fakturaadresse h4,p{
+    color: #333333;
+    font-size: 17px;
+    font-weight: normal;
+}
+.Fakturaadresse hr{
+    color: #9D9F99;
+    margin-bottom: 20px;
+}
+
+
+
+
