@@ -4182,6 +4182,114 @@ a {
     color: #333333;
     text-decoration: none;
 }
+/* forgot pass page-1 */
+.passwPageTitle {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #F8F5EF;
+}
+
+.passwPageTitle h1 {
+    font-size: 52px;
+    font-weight: normal;
+    color: #87565B;
+}
+
+.passPageContent {
+    max-width: 410px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+
+.passPageContent p a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 23px;
+}
+
+.passPageContent form label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.passPageContent form {
+    width: 100%;
+}
+
+.passPageContent form input {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 96%;
+    padding: 10px 0px 10px 12px;
+    font-size: 17px;
+    font-weight: normal;
+    border-radius: 4px;
+    border: 2px solid #dddbdb;
+
+}
+
+.passPageContent form button {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 10px 12px 10px 12px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid #dddbdb;
+    background-color: #87565B;
+    color: #FFF;
+    border: none;
+
+}
+
+.passPageContent form p {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgetPasSec img {
+    width: 100%;
+}
+
+/* responsive */
+@media only screen and (max-width: 379px) {
+    .passwPageTitle {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .passwPageTitle h1 {
+        font-weight: normal;
+        font-size: 40px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .passwPageTitle {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .passPageContent {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 50px;
+    }
+
+    .passPageContent p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+}
+
 
 
 
