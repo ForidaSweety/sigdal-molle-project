@@ -4291,6 +4291,43 @@ a {
 }
 
 
+/* forget password page-2 */
+.passPageContent .strongTitle {
+    margin-top: 120px;
+    text-align: center;
+}
+
+/* responsive */
+@media only screen and (max-width: 379px) {
+    .passwPageTitle {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .passwPageTitle h1 {
+        font-weight: normal;
+        font-size: 40px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .passwPageTitle {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .passPageContent {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 50px;
+    }
+
+    .passPageContent p {
+        font-size: 16px;
+        line-height: 23px;
+        text-align: justify;
+    }
+
+}
 
 
 
