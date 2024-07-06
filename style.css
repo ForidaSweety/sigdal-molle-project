@@ -4345,7 +4345,36 @@ a {
 
 }
 
+/* velg password page2 */
+.velgPassPageContent {
+    max-width: 410px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 160px;
+    text-align: center;
+}
 
+.velgPassPageContent p {
+    font-size: 17px;
+    font-weight: normal;
+    color: #333333;
+    margin-bottom: 40px;
+    line-height: 23px;
+}
+
+.velgPassPageContent form button {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    padding: 10px 35px 10px 35px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid #dddbdb;
+    background-color: #87565B;
+    color: #FFF;
+    border: none;
+
+}
 
 
 
